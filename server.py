@@ -4,7 +4,7 @@ import json
 from random import randint
 from time import sleep
 
-HOST, PORT = '109.191.136.194', 8080 # Адрес сервера
+HOST, PORT = '26.175.0.122', 8080 # Адрес сервера
 MAX_PLAYERS = 2 # Максимальное кол-во подключений
 
 class Server:
