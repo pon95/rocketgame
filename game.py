@@ -3,7 +3,7 @@ from client import Client, Player, Enemy
 
 init() # Инициализируем pygame
 
-HOST, PORT = "109.191.136.194", 8080 # Адрес сервера
+HOST, PORT = "26.175.0.122", 8080 # Адрес сервера
 
 client = Client((HOST, PORT)) # Создаем объект клиента
 
