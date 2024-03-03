@@ -55,7 +55,7 @@ class Player(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self)
 
         # Загружаем спрайт игрока
-        self.image = pygame.transform.scale(pygame.image.load("textures/rocket.png"), (40, 60))
+        self.image = pygame.transform.scale(pygame.image.load("textures\\rocket.png"), (40, 60))
         self.rect = self.image.get_rect(center=pos)
 
 class Enemy(pygame.sprite.Sprite):
@@ -63,7 +63,7 @@ class Enemy(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self)
 
         # Загружаем спрайт игрока
-        self.image = pygame.transform.scale(pygame.image.load("textures/ufo.png"), (80, 40))
+        self.image = pygame.transform.scale(pygame.image.load("textures\\ufo.png"), (80, 40))
         self.rect = self.image.get_rect(center=pos)
 
 class Bullet(pygame.sprite.Sprite):
@@ -71,5 +71,5 @@ class Bullet(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self)
 
         # Загружаем спрайт игрока
-        self.image = pygame.transform.scale(pygame.image.load("textures/bullet.png"), (20, 60))
+        self.image = pygame.transform.scale(pygame.image.load("textures\\bullet.png"), (20, 60))
         self.rect = self.image.get_rect(center=pos)
