@@ -2,10 +2,10 @@ import tkinter as tk
 import os
 
 def run_game():
-    os.system('python game.py')
+    os.system('python src/game.py')
 
 def run_server_game():
-    os.system('start cmd /k python server.py & python game.py')
+    os.system('start cmd /k python src/server.py & python src/game.py')
 
 # Create the main window
 root = tk.Tk()
